@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "GSPodsTest"
   s.version      = "0.0.1"
-  s.summary      = "A short description of GSPodsTest."
+  s.summary      = "卧槽测试"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/GSPodsTest"
+  s.homepage     = "https://github.com/gaohaoyun/GSPodsTest"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "GaoHaoyun" => "gaohaoyun@zhubajie.com" }
+  s.author             = { "GaoHaoyun" => "417172948@qq.com" }
   # Or just: s.author    = "GaoHaoyun"
   # s.authors            = { "GaoHaoyun" => "gaohaoyun@zhubajie.com" }
   # s.social_media_url   = "http://twitter.com/GaoHaoyun"
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/GSPodsTest.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/gaohaoyun/GSPodsTest.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,9 +89,9 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+s. source_files = "GSPodsTest/*"
+  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+ # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -116,7 +116,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+   s.framework  = 'UIKit' , 'QuartzCore' , 'Foundation'
+s.module_name = 'GSPodsTest'
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
