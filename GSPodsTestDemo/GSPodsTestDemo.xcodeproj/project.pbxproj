@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2CA93431E154922005C0CCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA93421E154922005C0CCE /* main.m */; };
+		A2CA93461E154922005C0CCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA93451E154922005C0CCE /* AppDelegate.m */; };
+		A2CA93491E154922005C0CCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA93481E154922005C0CCE /* ViewController.m */; };
+		A2CA934C1E154922005C0CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CA934A1E154922005C0CCE /* Main.storyboard */; };
+		A2CA934E1E154922005C0CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CA934D1E154922005C0CCE /* Assets.xcassets */; };
+		A2CA93511E154922005C0CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CA934F1E154922005C0CCE /* LaunchScreen.storyboard */; };
+		A2CA935C1E154922005C0CCE /* GSPodsTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA935B1E154922005C0CCE /* GSPodsTestDemoTests.m */; };
+		A2CA93671E154922005C0CCE /* GSPodsTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA93661E154922005C0CCE /* GSPodsTestDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CA93581E154922005C0CCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CA93361E154922005C0CCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CA933D1E154922005C0CCE;
+			remoteInfo = GSPodsTestDemo;
+		};
+		A2CA93631E154922005C0CCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CA93361E154922005C0CCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CA933D1E154922005C0CCE;
+			remoteInfo = GSPodsTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2CA933E1E154922005C0CCE /* GSPodsTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSPodsTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CA93421E154922005C0CCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2CA93441E154922005C0CCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2CA93451E154922005C0CCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2CA93471E154922005C0CCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2CA93481E154922005C0CCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2CA934B1E154922005C0CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2CA934D1E154922005C0CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2CA93501E154922005C0CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2CA93521E154922005C0CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CA93571E154922005C0CCE /* GSPodsTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSPodsTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CA935B1E154922005C0CCE /* GSPodsTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSPodsTestDemoTests.m; sourceTree = "<group>"; };
+		A2CA935D1E154922005C0CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CA93621E154922005C0CCE /* GSPodsTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSPodsTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CA93661E154922005C0CCE /* GSPodsTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSPodsTestDemoUITests.m; sourceTree = "<group>"; };
+		A2CA93681E154922005C0CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CA933B1E154922005C0CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CA93541E154922005C0CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CA935F1E154922005C0CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2CA93351E154922005C0CCE = {
+			isa = PBXGroup;
+			children = (
+				A2CA93401E154922005C0CCE /* GSPodsTestDemo */,
+				A2CA935A1E154922005C0CCE /* GSPodsTestDemoTests */,
+				A2CA93651E154922005C0CCE /* GSPodsTestDemoUITests */,
+				A2CA933F1E154922005C0CCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CA933F1E154922005C0CCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CA933E1E154922005C0CCE /* GSPodsTestDemo.app */,
+				A2CA93571E154922005C0CCE /* GSPodsTestDemoTests.xctest */,
+				A2CA93621E154922005C0CCE /* GSPodsTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CA93401E154922005C0CCE /* GSPodsTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2CA93441E154922005C0CCE /* AppDelegate.h */,
+				A2CA93451E154922005C0CCE /* AppDelegate.m */,
+				A2CA93471E154922005C0CCE /* ViewController.h */,
+				A2CA93481E154922005C0CCE /* ViewController.m */,
+				A2CA934A1E154922005C0CCE /* Main.storyboard */,
+				A2CA934D1E154922005C0CCE /* Assets.xcassets */,
+				A2CA934F1E154922005C0CCE /* LaunchScreen.storyboard */,
+				A2CA93521E154922005C0CCE /* Info.plist */,
+				A2CA93411E154922005C0CCE /* Supporting Files */,
+			);
+			path = GSPodsTestDemo;
+			sourceTree = "<group>";
+		};
+		A2CA93411E154922005C0CCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2CA93421E154922005C0CCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2CA935A1E154922005C0CCE /* GSPodsTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CA935B1E154922005C0CCE /* GSPodsTestDemoTests.m */,
+				A2CA935D1E154922005C0CCE /* Info.plist */,
+			);
+			path = GSPodsTestDemoTests;
+			sourceTree = "<group>";
+		};
+		A2CA93651E154922005C0CCE /* GSPodsTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CA93661E154922005C0CCE /* GSPodsTestDemoUITests.m */,
+				A2CA93681E154922005C0CCE /* Info.plist */,
+			);
+			path = GSPodsTestDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CA933D1E154922005C0CCE /* GSPodsTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CA936B1E154922005C0CCE /* Build configuration list for PBXNativeTarget "GSPodsTestDemo" */;
+			buildPhases = (
+				A2CA933A1E154922005C0CCE /* Sources */,
+				A2CA933B1E154922005C0CCE /* Frameworks */,
+				A2CA933C1E154922005C0CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSPodsTestDemo;
+			productName = GSPodsTestDemo;
+			productReference = A2CA933E1E154922005C0CCE /* GSPodsTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2CA93561E154922005C0CCE /* GSPodsTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CA936E1E154922005C0CCE /* Build configuration list for PBXNativeTarget "GSPodsTestDemoTests" */;
+			buildPhases = (
+				A2CA93531E154922005C0CCE /* Sources */,
+				A2CA93541E154922005C0CCE /* Frameworks */,
+				A2CA93551E154922005C0CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CA93591E154922005C0CCE /* PBXTargetDependency */,
+			);
+			name = GSPodsTestDemoTests;
+			productName = GSPodsTestDemoTests;
+			productReference = A2CA93571E154922005C0CCE /* GSPodsTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2CA93611E154922005C0CCE /* GSPodsTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CA93711E154922005C0CCE /* Build configuration list for PBXNativeTarget "GSPodsTestDemoUITests" */;
+			buildPhases = (
+				A2CA935E1E154922005C0CCE /* Sources */,
+				A2CA935F1E154922005C0CCE /* Frameworks */,
+				A2CA93601E154922005C0CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CA93641E154922005C0CCE /* PBXTargetDependency */,
+			);
+			name = GSPodsTestDemoUITests;
+			productName = GSPodsTestDemoUITests;
+			productReference = A2CA93621E154922005C0CCE /* GSPodsTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CA93361E154922005C0CCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mars Gao";
+				TargetAttributes = {
+					A2CA933D1E154922005C0CCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A2CA93561E154922005C0CCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2CA933D1E154922005C0CCE;
+					};
+					A2CA93611E154922005C0CCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2CA933D1E154922005C0CCE;
+					};
+				};
+			};
+			buildConfigurationList = A2CA93391E154922005C0CCE /* Build configuration list for PBXProject "GSPodsTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2CA93351E154922005C0CCE;
+			productRefGroup = A2CA933F1E154922005C0CCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CA933D1E154922005C0CCE /* GSPodsTestDemo */,
+				A2CA93561E154922005C0CCE /* GSPodsTestDemoTests */,
+				A2CA93611E154922005C0CCE /* GSPodsTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CA933C1E154922005C0CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CA93511E154922005C0CCE /* LaunchScreen.storyboard in Resources */,
+				A2CA934E1E154922005C0CCE /* Assets.xcassets in Resources */,
+				A2CA934C1E154922005C0CCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CA93551E154922005C0CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CA93601E154922005C0CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CA933A1E154922005C0CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CA93491E154922005C0CCE /* ViewController.m in Sources */,
+				A2CA93461E154922005C0CCE /* AppDelegate.m in Sources */,
+				A2CA93431E154922005C0CCE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CA93531E154922005C0CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CA935C1E154922005C0CCE /* GSPodsTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CA935E1E154922005C0CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CA93671E154922005C0CCE /* GSPodsTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2CA93591E154922005C0CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CA933D1E154922005C0CCE /* GSPodsTestDemo */;
+			targetProxy = A2CA93581E154922005C0CCE /* PBXContainerItemProxy */;
+		};
+		A2CA93641E154922005C0CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CA933D1E154922005C0CCE /* GSPodsTestDemo */;
+			targetProxy = A2CA93631E154922005C0CCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2CA934A1E154922005C0CCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CA934B1E154922005C0CCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2CA934F1E154922005C0CCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CA93501E154922005C0CCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2CA93691E154922005C0CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2CA936A1E154922005C0CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2CA936C1E154922005C0CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GSPodsTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarsGao.GSPodsTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2CA936D1E154922005C0CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GSPodsTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarsGao.GSPodsTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2CA936F1E154922005C0CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GSPodsTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarsGao.GSPodsTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSPodsTestDemo.app/GSPodsTestDemo";
+			};
+			name = Debug;
+		};
+		A2CA93701E154922005C0CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GSPodsTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarsGao.GSPodsTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSPodsTestDemo.app/GSPodsTestDemo";
+			};
+			name = Release;
+		};
+		A2CA93721E154922005C0CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GSPodsTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarsGao.GSPodsTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GSPodsTestDemo;
+			};
+			name = Debug;
+		};
+		A2CA93731E154922005C0CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GSPodsTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarsGao.GSPodsTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GSPodsTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CA93391E154922005C0CCE /* Build configuration list for PBXProject "GSPodsTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CA93691E154922005C0CCE /* Debug */,
+				A2CA936A1E154922005C0CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CA936B1E154922005C0CCE /* Build configuration list for PBXNativeTarget "GSPodsTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CA936C1E154922005C0CCE /* Debug */,
+				A2CA936D1E154922005C0CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2CA936E1E154922005C0CCE /* Build configuration list for PBXNativeTarget "GSPodsTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CA936F1E154922005C0CCE /* Debug */,
+				A2CA93701E154922005C0CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2CA93711E154922005C0CCE /* Build configuration list for PBXNativeTarget "GSPodsTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CA93721E154922005C0CCE /* Debug */,
+				A2CA93731E154922005C0CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2CA93361E154922005C0CCE /* Project object */;
+}
